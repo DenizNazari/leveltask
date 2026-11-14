@@ -53,7 +53,7 @@
 
 ## 📜 Quest Log (24 Completed Quests)
 
-All 24 solved challenges can be launched directly from the interactive menu in [`Program.cs`](Program.cs) (including the WinForms **15-Puzzle Boss Battle** in [`BossBattlePuzzle15`](../BossBattlePuzzle15)).
+All 24 solved challenges can be launched directly from the interactive menu in [`Program.cs`](Program.cs) (including the WinForms **15-Puzzle Boss Battle** in [`BossBattlePuzzle15`](./BossBattlePuzzle15)).
 
 | Status | # | Quest Name | Book Part / Topic | XP | Folder |
 |---|---|---|---|---|---|

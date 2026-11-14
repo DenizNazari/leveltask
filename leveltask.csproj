@@ -12,7 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BossBattlePuzzle15\BossBattlePuzzle15.csproj" />
+    <Compile Remove="BossBattlePuzzle15\**" />
+    <EmbeddedResource Remove="BossBattlePuzzle15\**" />
+    <None Remove="BossBattlePuzzle15\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="BossBattlePuzzle15\BossBattlePuzzle15.csproj" />
   </ItemGroup>
 
 </Project>

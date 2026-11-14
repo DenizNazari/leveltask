@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.37516.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leveltask", "leveltask.csproj", "{56FD0C54-A9DE-4716-BF37-654867671FB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossBattlePuzzle15", "..\BossBattlePuzzle15\BossBattlePuzzle15.csproj", "{721622C3-3024-4987-813D-80B338D7FD8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossBattlePuzzle15", "BossBattlePuzzle15\BossBattlePuzzle15.csproj", "{721622C3-3024-4987-813D-80B338D7FD8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

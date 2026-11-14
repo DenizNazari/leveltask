@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leveltask", "leveltask.csproj", "{56FD0C54-A9DE-4716-BF37-654867671FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossBattlePuzzle15", "..\BossBattlePuzzle15\BossBattlePuzzle15.csproj", "{721622C3-3024-4987-813D-80B338D7FD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FD0C54-A9DE-4716-BF37-654867671FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FD0C54-A9DE-4716-BF37-654867671FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FD0C54-A9DE-4716-BF37-654867671FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FD0C54-A9DE-4716-BF37-654867671FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721622C3-3024-4987-813D-80B338D7FD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721622C3-3024-4987-813D-80B338D7FD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721622C3-3024-4987-813D-80B338D7FD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721622C3-3024-4987-813D-80B338D7FD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA54274E-C6CC-4638-BE5A-B1F685AB0D58}
+	EndGlobalSection
+EndGlobal

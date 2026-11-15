@@ -51,36 +51,39 @@
 
 ---
 
-## 📜 Görev Günlüğü (Tamamlanan 24 Görev)
+## 📜 Görev Günlüğü (Tamamlanan 25 Görev)
 
-Tamamlanan 24 görevin tamamı [`Program.cs`](Program.cs) içindeki interaktif menüden (WinForms **15-Puzzle Boss Battle** dahil) doğrudan çalıştırılabilir.
+<img src="assets/manticore.gif" align="right" width="90" alt="Manticore Boss Sprite" />
+
+Tamamlanan görevlerin tamamı [`Program.cs`](Program.cs) içindeki interaktif menüden (WinForms **15-Puzzle Boss Battle** dahil) doğrudan çalıştırılabilir.
 
 | Durum | # | Görev Adı | Kitap Bölümü / Konu | XP | Klasör |
 |---|---|---|---|---|---|
-| ✅ | 01 | [The Triangle Farmer](./Tasks/new-redesign/01-The-Triangle-Farmer) | Bölüm 1 · Level 6: The C# Type System | 100 XP | `01-The-Triangle-Farmer` |
-| ✅ | 02 | [The Variable Shop & Returns](./Tasks/new-redesign/02-The-Variable-Shop-And-Type-Limits) | Bölüm 1 · Level 6–7: Types & Overflow | 150 XP | `02-The-Variable-Shop-And-Type-Limits` |
-| ✅ | 03 | [The Four Sisters and the Duckbear](./Tasks/new-redesign/03-The-Four-Sisters-and-the-Duckbear) | Bölüm 1 · Level 7: Math (`/` & `%`) | 100 XP | `03-The-Four-Sisters-and-the-Duckbear` |
-| ✅ | 04 | [The Dominion of Kings](./Tasks/new-redesign/04-The-Dominion-of-Kings) | Bölüm 1 · Level 7: Math | 100 XP | `04-The-Dominion-of-Kings` |
-| ✅ | 05 | [The Defense of Consolas](./Tasks/new-redesign/05-The-Defense-of-Consolas) | Bölüm 1 · Level 8: Console 2.0 | 200 XP | `05-The-Defense-of-Consolas` |
-| ✅ | 06 | [Repairing the Clocktower](./Tasks/new-redesign/06-Repairing-the-Clocktower) | Bölüm 1 · Level 9: Decision Making | 100 XP | `06-Repairing-the-Clocktower` |
-| ✅ | 07 | [Watchtower](./Tasks/new-redesign/07-Watchtower) | Bölüm 1 · Level 9: Koordinat & Mantık | 100 XP | `07-Watchtower` |
-| ✅ | 08 | [Buying & Discounted Inventory](./Tasks/new-redesign/08-Buying-and-Discounted-Inventory) | Bölüm 1 · Level 10: Switch & Ternary | 150 XP | `08-Buying-and-Discounted-Inventory` |
-| ✅ | 09 | [The Prototype](./Tasks/new-redesign/09-The-Prototype) | Bölüm 1 · Level 11: Döngüler (`while`) | 100 XP | `09-The-Prototype` |
-| ✅ | 10 | [The Magic Cannon](./Tasks/new-redesign/10-The-Magic-Cannon) | Bölüm 1 · Level 11: Döngüler (`for`, `do-while`) | 100 XP | `10-The-Magic-Cannon` |
-| ✅ | 11 | [The Replicator of D'To](./Tasks/new-redesign/11-The-Replicator-of-DTo) | Bölüm 1 · Level 12: Diziler (`for`) | 100 XP | `11-The-Replicator-of-DTo` |
-| ✅ | 12 | [The Laws of Freach](./Tasks/new-redesign/12-The-Laws-of-Freach) | Bölüm 1 · Level 12: Diziler (`foreach`) | 50 XP | `12-The-Laws-of-Freach` |
-| ✅ | 13 | [Taking a Number](./Tasks/new-redesign/13-Taking-a-Number) | Bölüm 1 · Level 13: Metotlar & Overloading | 100 XP | `13-Taking-a-Number` |
-| ✅ | 14 | [Hunting the Manticore (Boss Battle)](./Tasks/new-redesign/14-Hunting-the-Manticore) | Bölüm 1 · Level 14: Memory Management | 250 XP | `14-Hunting-the-Manticore` |
-| ✅ | 15 | [Simula's Test](./Tasks/new-redesign/15-Simulas-Test) | Bölüm 2 · Level 16: Enumerations | 100 XP | `15-Simulas-Test` |
-| ✅ | 16 | [Simula's Soup](./Tasks/new-redesign/16-Simulas-Soup) | Bölüm 2 · Level 17: Tuples | 100 XP | `16-Simulas-Soup` |
-| ✅ | 17 | [Vin Fletcher's Arrows](./Tasks/new-redesign/17-Vin-Fletchers-Arrows) | Bölüm 2 · Level 18–21: Sınıflar & Static | 100 XP | `17-Vin-Fletchers-Arrows` |
-| ✅ | 18 | [The Point](./Tasks/new-redesign/18-The-Point) | Bölüm 2 · Level 24: Catacombs of the Class | 75 XP | `18-The-Point` |
-| ✅ | 19 | [The Color](./Tasks/new-redesign/19-The-Color) | Bölüm 2 · Level 24: Catacombs of the Class | 100 XP | `19-The-Color` |
-| ✅ | 20 | [The Card](./Tasks/new-redesign/20-The-Card) | Bölüm 2 · Level 24: Catacombs of the Class | 100 XP | `20-The-Card` |
-| ✅ | 21 | [The Locked Door](./Tasks/new-redesign/21-The-Locked-Door) | Bölüm 2 · Level 24: Durum Yönetimi | 100 XP | `21-The-Locked-Door` |
-| ✅ | 22 | [The Password Validator](./Tasks/new-redesign/22-The-Password-Validator) | Bölüm 2 · Level 24: Doğrulama | 100 XP | `22-The-Password-Validator` |
-| ✅ | 23 | [Rock-Paper-Scissors](./Tasks/new-redesign/23-Rock-Paper-Scissors) | Bölüm 2 · Level 24: OOP Tasarım & Dosya Kaydı | 150 XP | `23-Rock-Paper-Scissors` |
-| ✅ | 24 | [The 15-Puzzle (Boss Battle)](./Tasks/new-redesign/24-15-Puzzle) | Bölüm 2 · Level 24: OOP & WinForms Arayüz | 150 XP | `24-15-Puzzle` |
+| ✅ | 01 | [The Triangle Farmer](./Tasks/new-redesign/01-The-Triangle-Farmer/README-tr.md) | Bölüm 1 · Level 6: The C# Type System | 100 XP | `01-The-Triangle-Farmer` |
+| ✅ | 02 | [The Variable Shop & Returns](./Tasks/new-redesign/02-The-Variable-Shop-And-Type-Limits/README-tr.md) | Bölüm 1 · Level 6–7: Types & Overflow | 150 XP | `02-The-Variable-Shop-And-Type-Limits` |
+| ✅ | 03 | [The Four Sisters and the Duckbear](./Tasks/new-redesign/03-The-Four-Sisters-and-the-Duckbear/README-tr.md) | Bölüm 1 · Level 7: Math (`/` & `%`) | 100 XP | `03-The-Four-Sisters-and-the-Duckbear` |
+| ✅ | 04 | [The Dominion of Kings](./Tasks/new-redesign/04-The-Dominion-of-Kings/README-tr.md) | Bölüm 1 · Level 7: Math | 100 XP | `04-The-Dominion-of-Kings` |
+| ✅ | 05 | [The Defense of Consolas](./Tasks/new-redesign/05-The-Defense-of-Consolas/README-tr.md) | Bölüm 1 · Level 8: Console 2.0 | 200 XP | `05-The-Defense-of-Consolas` |
+| ✅ | 06 | [Repairing the Clocktower](./Tasks/new-redesign/06-Repairing-the-Clocktower/README-tr.md) | Bölüm 1 · Level 9: Decision Making | 100 XP | `06-Repairing-the-Clocktower` |
+| ✅ | 07 | [Watchtower](./Tasks/new-redesign/07-Watchtower/README-tr.md) | Bölüm 1 · Level 9: Koordinat & Mantık | 100 XP | `07-Watchtower` |
+| ✅ | 08 | [Buying & Discounted Inventory](./Tasks/new-redesign/08-Buying-and-Discounted-Inventory/README-tr.md) | Bölüm 1 · Level 10: Switch & Ternary | 150 XP | `08-Buying-and-Discounted-Inventory` |
+| ✅ | 09 | [The Prototype](./Tasks/new-redesign/09-The-Prototype/README-tr.md) | Bölüm 1 · Level 11: Döngüler (`while`) | 100 XP | `09-The-Prototype` |
+| ✅ | 10 | [The Magic Cannon](./Tasks/new-redesign/10-The-Magic-Cannon/README-tr.md) | Bölüm 1 · Level 11: Döngüler (`for`, `do-while`) | 100 XP | `10-The-Magic-Cannon` |
+| ✅ | 11 | [The Replicator of D'To](./Tasks/new-redesign/11-The-Replicator-of-DTo/README-tr.md) | Bölüm 1 · Level 12: Diziler (`for`) | 100 XP | `11-The-Replicator-of-DTo` |
+| ✅ | 12 | [The Laws of Freach](./Tasks/new-redesign/12-The-Laws-of-Freach/README-tr.md) | Bölüm 1 · Level 12: Diziler (`foreach`) | 50 XP | `12-The-Laws-of-Freach` |
+| ✅ | 13 | [Taking a Number](./Tasks/new-redesign/13-Taking-a-Number/README-tr.md) | Bölüm 1 · Level 13: Metotlar & Overloading | 100 XP | `13-Taking-a-Number` |
+| ✅ | 14 | [Hunting the Manticore (Boss Battle)](./Tasks/new-redesign/14-Hunting-the-Manticore/README-tr.md) | Bölüm 1 · Level 14: Memory Management | 250 XP | `14-Hunting-the-Manticore` |
+| ✅ | 15 | [Simula's Test](./Tasks/new-redesign/15-Simulas-Test/README-tr.md) | Bölüm 2 · Level 16: Enumerations | 100 XP | `15-Simulas-Test` |
+| ✅ | 16 | [Simula's Soup](./Tasks/new-redesign/16-Simulas-Soup/README-tr.md) | Bölüm 2 · Level 17: Tuples | 100 XP | `16-Simulas-Soup` |
+| ✅ | 17 | [Vin Fletcher's Arrows](./Tasks/new-redesign/17-Vin-Fletchers-Arrows/README-tr.md) | Bölüm 2 · Level 18–21: Sınıflar & Static | 350 XP | `17-Vin-Fletchers-Arrows` |
+| ✅ | 18 | [The Point](./Tasks/new-redesign/18-The-Point/README-tr.md) | Bölüm 2 · Level 24: Catacombs of the Class | 75 XP | `18-The-Point` |
+| ✅ | 19 | [The Color](./Tasks/new-redesign/19-The-Color/README-tr.md) | Bölüm 2 · Level 24: Catacombs of the Class | 100 XP | `19-The-Color` |
+| ✅ | 20 | [The Card](./Tasks/new-redesign/20-The-Card/README-tr.md) | Bölüm 2 · Level 24: Catacombs of the Class | 100 XP | `20-The-Card` |
+| ✅ | 21 | [The Locked Door](./Tasks/new-redesign/21-The-Locked-Door/README-tr.md) | Bölüm 2 · Level 24: Durum Yönetimi | 100 XP | `21-The-Locked-Door` |
+| ✅ | 22 | [The Password Validator](./Tasks/new-redesign/22-The-Password-Validator/README-tr.md) | Bölüm 2 · Level 24: Doğrulama | 100 XP | `22-The-Password-Validator` |
+| ✅ | 23 | [Rock-Paper-Scissors](./Tasks/new-redesign/23-Rock-Paper-Scissors/README-tr.md) | Bölüm 2 · Level 24: OOP Tasarım & Dosya Kaydı | 150 XP | `23-Rock-Paper-Scissors` |
+| ✅ | 24 | [The 15-Puzzle (Boss Battle)](./Tasks/new-redesign/24-15-Puzzle/README-tr.md) | Bölüm 2 · Level 24: OOP & WinForms Arayüz | 150 XP | `24-15-Puzzle` |
+| ✅ | 25 | [Hangman (Boss Battle)](./Tasks/new-redesign/25-Hangman/README-tr.md) | Bölüm 2 · Level 24: OOP & Kelime Maskeleme | 150 XP | `25-Hangman` |
 
 ---
 
@@ -232,10 +235,44 @@ Tamamlanan 24 görevin tamamı [`Program.cs`](Program.cs) içindeki interaktif m
 
 ---
 
-## 🚀 Görev Merkezini Çalıştırma
+## 🚀 Görev Merkezini Çalıştırma (Kullanım Rehberi)
+
+<img src="assets/quest-scroll.gif" align="right" width="90" alt="Görev Parşömeni" />
+
+### 1. Projeyi İndirme ve Başlatma
+Bilgisayarınızda [.NET 9.0 SDK](https://dotnet.microsoft.com/download) kurulu olduğundan emin olun, ardından terminalde şu komutları çalıştırın:
 
 ```bash
+git clone https://github.com/DenizNazari/the-csharp-players-guide-quests.git
+cd the-csharp-players-guide-quests
 dotnet run --project leveltask.csproj
 ```
 
-Açılan interaktif konsol menüsünden çalıştırmak istediğiniz görevin numarasını (`1–24`) seçebilirsiniz.
+### 2. Açılan Menüden Görev Seçme ve Oynama
+Uygulama çalıştığında karşınıza tüm görevlerin listelendiği **İnteraktif Görev Seçim Ekranı** (`Program.cs`) gelir:
+
+```text
+============================================================
+       THE C# PLAYER'S GUIDE - GÖREV SEÇİM EKRANI           
+============================================================
+  [01] The Triangle Farmer               [13] Taking a Number
+  [02] The Variable Shop & Type Limits   [14] Hunting the Manticore (Boss)
+  [03] The Four Sisters & the Duckbear   [15] Simula's Test
+  [04] The Dominion of Kings             [16] Simula's Soup
+  [05] The Defense of Consolas           [17] Vin Fletcher's Arrows
+  [06] Repairing the Clocktower          [18] The Point
+  [07] Watchtower                        [19] The Color (ANSI RGB)
+  [08] Buying & Discounted Inventory     [20] The Card (ASCII Cards)
+  [09] The Prototype                     [21] The Locked Door
+  [10] The Magic Cannon                  [22] The Password Validator
+  [11] The Replicator of D'To            [23] Rock-Paper-Scissors
+  [12] The Laws of Freach                [24] 15-Puzzle (Boss Battle)
+  [00] Çıkış (Exit)                      [25] Hangman (Boss Battle)
+------------------------------------------------------------
+Çalıştırmak istediğiniz görevin numarasını girin (1-25, Çıkış: 0):
+```
+
+1. **Görev Başlatma:** Açılan pencerede çalıştırmak istediğiniz uygulamanın/görevin numarasını (`1` ile `25` arasında) yazıp **`Enter`** tuşuna basın.
+   - **`1–23`** veya **`25`** numaralı görevlerden birini seçtiğinizde ilgili konsol uygulaması doğrudan terminal ekranında başlar.
+   - **`24`** (`15-Puzzle`) numarasını yazıp **`Enter`**'a bastığınızda ise **Windows Forms masaüstü arayüzü** ayrı bir pencere olarak açılır; buradan tahta boyutunu ($N \times N$) seçip fare ile bulmacayı oynayabilirsiniz.
+2. **Ana Menüye Dönüş ve Çıkış:** Çalıştırdığınız görev tamamlandığında herhangi bir tuşa basarak ana menüye geri dönebilir ve başka bir görev seçebilirsiniz. Uygulamadan tamamen çıkmak için görev sonunda **`ESC`** tuşuna basabilir veya ana menüde **`0`** yazıp **`Enter`**'a basabilirsiniz.

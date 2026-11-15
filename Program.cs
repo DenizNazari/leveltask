@@ -26,17 +26,17 @@ namespace LevelTask
                 Console.WriteLine("  [10] The Magic Cannon                  [22] The Password Validator");
                 Console.WriteLine("  [11] The Replicator of D'To            [23] Rock-Paper-Scissors");
                 Console.WriteLine("  [12] The Laws of Freach                [24] 15-Puzzle (Boss Battle)");
-                Console.WriteLine("  [00] Çıkış (Exit)");
+                Console.WriteLine("  [00] Çıkış (Exit)                      [25] Hangman (Boss Battle)");
                 Console.WriteLine("------------------------------------------------------------");
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("Çalıştırmak istediğiniz görevin numarasını girin (1-24, Çıkış: 0): ");
+                Console.Write("Çalıştırmak istediğiniz görevin numarasını girin (1-25, Çıkış: 0): ");
                 Console.ResetColor();
 
                 string? input = Console.ReadLine();
                 if (!int.TryParse(input, out int choice))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nGeçersiz giriş! Lütfen 0 ile 24 arasında bir sayı girin.");
+                    Console.WriteLine("\nGeçersiz giriş! Lütfen 0 ile 25 arasında bir sayı girin.");
                     Console.ResetColor();
                     Console.WriteLine("Devam etmek için bir tuşa basın...");
                     Console.ReadKey(true);
@@ -80,9 +80,10 @@ namespace LevelTask
                     case 22: LevelTask.Task22.Program.Main(args); break;
                     case 23: LevelTask.Task23.Program.Main(args); break;
                     case 24: LevelTask.Task24.Program.Main(args); break;
+                    case 25: leveltask.Tasks.new_redesign._25_Hangman.Program.Main(args); break;
                     default:
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Lütfen 1 ile 24 arasında bir görev seçin.");
+                        Console.WriteLine("Lütfen 1 ile 25 arasında bir görev seçin.");
                         Console.ResetColor();
                         break;
                 }

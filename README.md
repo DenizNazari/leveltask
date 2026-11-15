@@ -51,9 +51,11 @@
 
 ---
 
-## 📜 Quest Log (24 Completed Quests)
+## 📜 Quest Log (25 Completed Quests)
 
-All 24 solved challenges can be launched directly from the interactive menu in [`Program.cs`](Program.cs) (including the WinForms **15-Puzzle Boss Battle** in [`BossBattlePuzzle15`](./BossBattlePuzzle15)).
+<img src="assets/manticore.gif" align="right" width="90" alt="Manticore Boss Sprite" />
+
+All solved challenges can be launched directly from the interactive menu in [`Program.cs`](Program.cs) (including the WinForms **15-Puzzle Boss Battle** in [`BossBattlePuzzle15`](./BossBattlePuzzle15)).
 
 | Status | # | Quest Name | Book Part / Topic | XP | Folder |
 |---|---|---|---|---|---|
@@ -73,7 +75,7 @@ All 24 solved challenges can be launched directly from the interactive menu in [
 | ✅ | 14 | [Hunting the Manticore (Boss Battle)](./Tasks/new-redesign/14-Hunting-the-Manticore) | Part 1 · Level 14: Memory Management | 250 XP | `14-Hunting-the-Manticore` |
 | ✅ | 15 | [Simula's Test](./Tasks/new-redesign/15-Simulas-Test) | Part 2 · Level 16: Enumerations | 100 XP | `15-Simulas-Test` |
 | ✅ | 16 | [Simula's Soup](./Tasks/new-redesign/16-Simulas-Soup) | Part 2 · Level 17: Tuples | 100 XP | `16-Simulas-Soup` |
-| ✅ | 17 | [Vin Fletcher's Arrows](./Tasks/new-redesign/17-Vin-Fletchers-Arrows) | Part 2 · Level 18–21: Classes & Static | 100 XP | `17-Vin-Fletchers-Arrows` |
+| ✅ | 17 | [Vin Fletcher's Arrows](./Tasks/new-redesign/17-Vin-Fletchers-Arrows) | Part 2 · Level 18–21: Classes & Static | 350 XP | `17-Vin-Fletchers-Arrows` |
 | ✅ | 18 | [The Point](./Tasks/new-redesign/18-The-Point) | Part 2 · Level 24: Catacombs of the Class | 75 XP | `18-The-Point` |
 | ✅ | 19 | [The Color](./Tasks/new-redesign/19-The-Color) | Part 2 · Level 24: Catacombs of the Class | 100 XP | `19-The-Color` |
 | ✅ | 20 | [The Card](./Tasks/new-redesign/20-The-Card) | Part 2 · Level 24: Catacombs of the Class | 100 XP | `20-The-Card` |
@@ -81,6 +83,7 @@ All 24 solved challenges can be launched directly from the interactive menu in [
 | ✅ | 22 | [The Password Validator](./Tasks/new-redesign/22-The-Password-Validator) | Part 2 · Level 24: Validation | 100 XP | `22-The-Password-Validator` |
 | ✅ | 23 | [Rock-Paper-Scissors](./Tasks/new-redesign/23-Rock-Paper-Scissors) | Part 2 · Level 24: OOP Design & File I/O | 150 XP | `23-Rock-Paper-Scissors` |
 | ✅ | 24 | [The 15-Puzzle (Boss Battle)](./Tasks/new-redesign/24-15-Puzzle) | Part 2 · Level 24: OOP & WinForms GUI | 150 XP | `24-15-Puzzle` |
+| ✅ | 25 | [Hangman (Boss Battle)](./Tasks/new-redesign/25-Hangman) | Part 2 · Level 24: OOP & String Masking | 150 XP | `25-Hangman` |
 
 ---
 
@@ -232,10 +235,44 @@ All 24 solved challenges can be launched directly from the interactive menu in [
 
 ---
 
-## 🚀 How to Run the Quest Hub
+## 🚀 How to Run the Quest Hub (Interactive Launcher Guide)
+
+<img src="assets/quest-scroll.gif" align="right" width="90" alt="Quest Scroll" />
+
+### 1. Clone & Start the Application
+Make sure you have the [.NET 9.0 SDK](https://dotnet.microsoft.com/download) installed (Windows is required for the WinForms 15-Puzzle project), then run:
 
 ```bash
+git clone https://github.com/DenizNazari/the-csharp-players-guide-quests.git
+cd the-csharp-players-guide-quests
 dotnet run --project leveltask.csproj
 ```
 
-Select any quest (`1–24`) from the interactive console menu to run it directly.
+### 2. Choosing & Running a Quest from the Console Menu
+When the application starts, the **Interactive Quest Selection Screen** (`Program.cs`) appears in your terminal:
+
+```text
+============================================================
+       THE C# PLAYER'S GUIDE - GÖREV SEÇİM EKRANI           
+============================================================
+  [01] The Triangle Farmer               [13] Taking a Number
+  [02] The Variable Shop & Type Limits   [14] Hunting the Manticore (Boss)
+  [03] The Four Sisters & the Duckbear   [15] Simula's Test
+  [04] The Dominion of Kings             [16] Simula's Soup
+  [05] The Defense of Consolas           [17] Vin Fletcher's Arrows
+  [06] Repairing the Clocktower          [18] The Point
+  [07] Watchtower                        [19] The Color (ANSI RGB)
+  [08] Buying & Discounted Inventory     [20] The Card (ASCII Cards)
+  [09] The Prototype                     [21] The Locked Door
+  [10] The Magic Cannon                  [22] The Password Validator
+  [11] The Replicator of D'To            [23] Rock-Paper-Scissors
+  [12] The Laws of Freach                [24] 15-Puzzle (Boss Battle)
+  [00] Çıkış (Exit)                      [25] Hangman (Boss Battle)
+------------------------------------------------------------
+Çalıştırmak istediğiniz görevin numarasını girin (1-25, Çıkış: 0):
+```
+
+1. **Select a Quest:** Type the number of the quest you want to launch (`1` through `25`) and press **`Enter`**.
+   - Choosing **`1–23`** or **`25`** runs the corresponding console challenge directly inside the terminal.
+   - Choosing **`24`** (`15-Puzzle`) opens the **Windows Forms GUI** desktop window on a dedicated STA thread, where you can pick the $N \times N$ board size and play the sliding puzzle with your mouse.
+2. **Return to the Main Menu:** Once a quest finishes, press **any key** to return to the main selection screen, or press **`ESC`** (or enter **`0`** at the menu prompt) to exit the application.

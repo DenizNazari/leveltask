@@ -1,12 +1,14 @@
+<img src="../../../assets/quest-scroll.gif" align="right" width="96" alt="Quest Scroll" />
+
 <div align="center">
 
 # 📐 01 - The Triangle Farmer
 
 ### Calculate the area of a triangle from user-provided base and height.
 
-![Level](https://img.shields.io/badge/Level-6%3A%20The%20C%23%20Type%20System-512BD4)
-![C#](https://img.shields.io/badge/C%23-.NET%209-239120)
-![Type](https://img.shields.io/badge/Type-Challenge-blue)
+![Level](https://img.shields.io/badge/Level-6%3A%20The%20C%23%20Type%20System-512BD4?style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-.NET%209-239120?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Challenge-blue?style=for-the-badge)
 
 🇬🇧 English · [🇹🇷 Türkçe](README-tr.md)
 
@@ -41,3 +43,12 @@ Height:
 ## 📁 Files
 
 - [`Program.cs`](Program.cs) — Entry point (`LevelTask.Task01.Program.Main`)
+
+<!-- RPG-NAV -->
+---
+
+<div align="center">
+
+⬅️ *First Quest* &nbsp;·&nbsp; [🏠 Quest Log Hub](../../../README.md) &nbsp;·&nbsp; [02 - The Variable Shop & Type Limits ➡️](../02-The-Variable-Shop-And-Type-Limits/README.md)
+
+</div>
